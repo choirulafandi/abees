@@ -1,0 +1,24 @@
+{
+    "name": "choirulafandi/abees",
+    "description": "Program absensi sederhana",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Choirul Afandi",
+            "email": "science.afandi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "slim/slim": "^3.0",
+        "illuminate/database": "^5.2",
+        "robmorgan/phinx": "^0.5.3",
+        "vlucas/phpdotenv": "^2.1",
+        "vlucas/valitron": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abees\\": "src/Abees"
+        }
+    }
+}
